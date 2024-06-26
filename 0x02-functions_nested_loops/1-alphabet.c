@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * 
- * main- Entry point for the project
+ *main-Entry point for the project
  *
- * Description: writes a program that prints the alphabet,in lowercase,followed by a newline
- *
+ *print_alphabet - prints alphabets in lowercase followed by newline
  * Return: On success 0.
  */
 
