@@ -3,8 +3,12 @@
 /**
  *main-Entry point for the project
  *
- *Description: print_alphabet - Prints alphabets in lowercase followed by newline
- *Return: On success 0.
+ *print_alphabet - Prints alphabets in lowercase followed by newline
+ *
+ *Description: This function prints the alphabet in lowercase
+ *using the function _putchar, followed by a newline
+ *
+ * Return: On success 0.
  */
 
 void print_alphabet(void)
