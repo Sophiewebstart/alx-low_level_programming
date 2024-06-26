@@ -5,7 +5,7 @@
  *
  *print_alphabet - Prints alphabets in lowercase followed by newline
  *
- *This function prints each letter of the alphabet in lowercase
+ *Description: writes a program that prints print_alphabet
  *using the function _putchar, followed by a newline
  *
  * Return: On success 0.
