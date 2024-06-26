@@ -3,7 +3,7 @@
 /**
  *main-Entry point for the project
  *
- *print_alphabet - Prints alphabets in lowercase followed by newline
+ *Description: print_alphabet - Prints alphabets in lowercase followed by newline
  *Return: On success 0.
  */
 
