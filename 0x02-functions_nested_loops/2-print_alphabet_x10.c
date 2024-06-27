@@ -3,8 +3,8 @@
 /**
  *main-Entry point for the project
  *
- *Description: print_alphabet_x10 - Prints alphabets in lowercase 10 times
- *followed by newline
+ *Description: Writes a program that prints alphabet in lowercase 10 times
+ *using the print_alphabet_x10 function, followed by newline
  *
  *
  * Return: On success 0.
