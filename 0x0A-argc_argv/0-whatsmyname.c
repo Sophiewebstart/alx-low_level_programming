@@ -6,14 +6,15 @@
   * @argc: argument count
   * @argv: argument vector
   *
-  * Description - writes a program that prints its name 
-  * followed by a new line
+  * Description - writes a program that prints its name followed by a new line
   *
-  * Returns: 0 on success
+  *
+  * Returns: 0 on success.
   */
 int main(int argc, char *argv[])
 {
 	int i = 0;
+
 	(void)argc;
 
 	while( argv[0][i] !='\0')
