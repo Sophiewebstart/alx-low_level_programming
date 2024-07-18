@@ -6,8 +6,9 @@
   * @argc: argument count
   * @argv: argument vector
   *
-  * Description - writes a program that prints its name
-  * followed by a new line
+  * Description - this program prints its name, followed by a new line
+  * If the program is renamed, it will print the new name
+  * without having to compile again
   *
   * Returns: 0 on success.
   */
@@ -19,10 +20,10 @@ int main(int argc, char *argv[])
 
 	while ( argv[0][i] !='\0')
 	{
-		_putchar(argv[0][i]);
+		_putchar (argv[0][i]);
 		i++;
 	}
-	_putchar('\n');
+	_putchar ('\n');
 
 	return (0);
 }
