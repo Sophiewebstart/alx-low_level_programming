@@ -7,7 +7,7 @@
   * @size: size of elements
   *
   * Description - writes a program that allocates memory for an array of
-  * nmemb elements of size bytes each. The memory is set to zero 
+  * nmemb elements of size bytes each. The memory is set to zero
   * If nmemb or size is 0, then function returns NULL
   * If malloc fails, then function returns NULL
   *
