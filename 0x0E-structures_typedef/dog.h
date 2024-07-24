@@ -22,7 +22,7 @@ struct dog
   *
   * Return: Pointer to new structure for dog or NULL if it fails
   */
-struct dog *my_dog(char *name, float age, char*owner)
+struct dog *my_dog(char *name, float age, char *owner)
 {
 	struct dog *ptr;
 
