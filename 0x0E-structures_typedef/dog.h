@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 struct dog
 {
@@ -15,7 +16,10 @@ struct dog *my_dog(char *name, float age, char*owner)
 	if(ptr == NULL)
 	{
 		return (NULL);
+	}
 		ptr->name = name;
 		ptr->age = age;
 		ptr->owner = owner;
-	}
+
+		return (ptr);
+}
