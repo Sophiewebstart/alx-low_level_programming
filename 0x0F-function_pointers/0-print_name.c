@@ -4,7 +4,7 @@
 /**
   * print_name - a function that prints a name using a function pointer
   * @name: name to be printed
-  * @f: function pointer
+  * @f: pointer to the function to be printed
   *
   * Description - writes a program that prints a name using a funcion
   * pointer
