@@ -2,9 +2,9 @@
 
 /**
   * list_len - length of the list
-  * @h: head of the list
+  * @h: pointer to the first node
   *
-  * Return: number of elements in the list
+  * Return: number of nodes in the list
   */
 size_t list_len(const list_t *h)
 {
