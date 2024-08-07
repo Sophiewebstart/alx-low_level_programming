@@ -3,7 +3,7 @@
 /**
   * get_nodeint_at_index - this retrieves a node at an index
   * @head: pointer to the first element in the list
-  * @index: the index of the node, startint at 0
+  * @index: the index of the node, starting at 0
   *
   * Return: the nth node of the linked list
   */
@@ -11,12 +11,14 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	unsigned int i;
 
-	for (i = 0; i == index; i++)
+	while (head == NULL)
 	{
-		if (head == NULL)
-			return (NULL);
-		head = head->next;
+		return (NULL);
 	}
 
+	for (i = 0; i < index; i++)
+	{
+		head = head->next;
+	}
 	return (head);
 }
