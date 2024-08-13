@@ -24,11 +24,14 @@ int append_text_to_file(const char *filename, char *text_content)
 		for (letters = 0; text_content[letters]; letters++)
 			;
 		numwr = write(file_d, text_content, letters);
-	}
-	if (numwr == -1)
-	{
-		close(file_d);
-	}
 
-	return (-1);
+		if (numwr == -1)
+		{
+			close(file_d);
+			return (-1);
+		}
+	}
+	close(file_d);
+
+	return (1);
 }
