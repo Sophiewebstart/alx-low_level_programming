@@ -7,25 +7,23 @@
  *
  * Return: Always 0
  */
+
 int main(void)
 {
-	int num1, num2;
+	int i = 0;
 
-	for (num1 = 0; num1 < 9; num1++)
+	while (i <= 9)
 	{
-		for (num2 = num1 + 1; num2 < 10; num2++)
+		putchar(i + '0');
+
+		if (i != 9)
 		{
-			putchar(num1 + '0');
-			putchar(num2 + '0');
-			if (num1 != 8 || num2 != 9)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
+
+		i++;
 	}
 
 	putchar('\n');
-
-	return (0);
 }
