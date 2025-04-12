@@ -4,6 +4,7 @@
 
 /**
  * main - check the code
+ * last_digit - this prints the last digit of the alphabet
  *
  * Description: Assigns a random number to variable n each time it runs,
  * then prints the last digit of n stored in the variable n.
